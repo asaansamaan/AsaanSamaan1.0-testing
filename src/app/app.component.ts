@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 @Component({
   selector: 'app-root',
   template: `
@@ -15,5 +15,4 @@ import { Component } from '@angular/core';
     <router-outlet name="popup"></router-outlet>
   `
 })
-export class AppComponent {
-}
+export class AppComponent {}
